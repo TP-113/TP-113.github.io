@@ -1,61 +1,71 @@
-body{
-background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+body {
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
-section{
+section {
     padding: 20px 60px 20px 60px;
 }
 
-.title{
+h3 {
+    /*線の種類（実線） 太さ 色*/
+    border-bottom: solid 2px rgb(117, 115, 115);
+}
+
+.title {
     background-color: #dddddd;
     padding: 30px 10px 30px 24px;
     margin-bottom: 10px;
 }
 
-.container{
+.container {
     width: 840px;
     margin: 0 auto;
     background-color: #ffffff;
 }
 
-.contents-item{
+.contents-item {
     overflow: hidden;
     margin-bottom: 10px;
 }
 
-.contents-item h4{
-    margin:10px;
+.contents-item h4 {
+    margin: 10px;
 }
 
-.contents-photo{
+.contents-photo {
     float: left;
 }
 
-img.another_teacher{
+img.another_teacher {
     width: 400px;
     margin-right: 10px;
 }
 
-img.smile_jumper{
+img.smile_jumper {
     width: 400px;
     margin-right: 10px;
 }
 
-img.melting{
+img.melting {
     width: 400px;
     margin-right: 10px;
 }
 
-.noimage{
-    position:relative;
+img.mail_friend {
+    width: 400px;
+    margin-right: 10px;
+}
+
+.noimage {
+    position: relative;
     width: 400px;
     height: 266px;
     margin-right: 10px;
     border: medium solid #dddddd;
 }
 
-.noimage p{
+.noimage p {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -63,7 +73,7 @@ img.melting{
 }
 
 
-.footer{
+.footer {
     background-color: #e0e0e0;
     height: 180px;
     text-align: center;
