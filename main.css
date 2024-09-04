@@ -61,6 +61,11 @@ img.mail_friend {
     margin-right: 10px;
 }
 
+img.pensieve {
+    width: 400px;
+    margin-right: 10px;
+}
+
 .noimage {
     position: relative;
     width: 400px;
